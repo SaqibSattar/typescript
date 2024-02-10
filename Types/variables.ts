@@ -16,3 +16,13 @@ gameOver = true
 gameOver = 'test'
 gameOver.name = 'X-men'
 gameOver.toupperCase
+
+
+// type inference
+let tvShow = 'Hatim'
+tvShow = 3
+tvShow = true
+
+let isFunny = false
+isFunny = 4
+isFunny = true
