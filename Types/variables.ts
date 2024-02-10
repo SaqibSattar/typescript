@@ -26,3 +26,10 @@ tvShow = true
 let isFunny = false
 isFunny = 4
 isFunny = true
+
+
+// any type
+let userName: any = 'User'
+userName = 4
+userName = true
+userName.toupperCase()
