@@ -40,7 +40,12 @@
 // }
 
 
-const nums = [1, 2, 3];
-nums.map((num) => {
-    return num.toUpperCase()
-})
+// const nums = [1, 2, 3];
+// nums.map((num) => {
+//     return num.toUpperCase()
+// })
+
+function printTwice(msg: string): void {
+    console.log(msg)
+    console.log(msg)
+}
