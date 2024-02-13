@@ -21,3 +21,11 @@ function greet(person: string) {
 
 greet(3)
 greet('User')
+
+
+function userGreet(person: string = 'user') {
+    return `Hi there, ${person}`
+}
+
+userGreet()
+userGreet('John')
