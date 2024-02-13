@@ -55,3 +55,7 @@ function neverStop(): never {
         console.log('never ending loop')
     }
 }
+
+function makeError(msg: string): never {
+    throw new Error(msg)
+}
