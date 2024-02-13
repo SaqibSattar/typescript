@@ -45,7 +45,13 @@
 //     return num.toUpperCase()
 // })
 
-function printTwice(msg: string): void {
-    console.log(msg)
-    console.log(msg)
+// function printTwice(msg: string): void {
+//     console.log(msg)
+//     console.log(msg)
+// }
+
+function neverStop(): never {
+    while(true) {
+        console.log('never ending loop')
+    }
 }
