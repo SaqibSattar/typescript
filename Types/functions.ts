@@ -31,10 +31,16 @@
 // userGreet('John')
 
 
-function add(num1: number, num2: number) {
-    return num1 + num2
-}
+// function add(num1: number, num2: number) {
+//     return num1 + num2
+// }
 
-function multiply(num1: number, num2: number): number {
-    return num1 * num2
-}
+// function multiply(num1: number, num2: number): number {
+//     return num1 * num2
+// }
+
+
+const nums = [1, 2, 3];
+nums.map((num) => {
+    return num.toUpperCase()
+})
