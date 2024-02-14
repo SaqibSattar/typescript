@@ -81,4 +81,39 @@ const user: User = {
 }
 
 console.log(user.id)
-user.id = 34
+// user.id = 34
+
+
+type Circle = {
+    radius: number;
+}
+
+type Colorful = {
+    color: string;
+}
+
+type ColorfulCircle = Colorful & Circle
+
+const happyFace: ColorfulCircle = {
+    radius: 5,
+    color: 'green'
+}
+
+type Cat = {
+    numLives: number
+}
+
+type Dog = {
+    breed: string
+}
+
+type CatDog = Cat & Dog & {
+    age: number
+}
+
+
+const christy: CatDog = {
+    numLives: 4,
+    breed: 'Husky',
+    age: 6
+}
