@@ -30,3 +30,33 @@ function randomCoordinate(): Point {
 function doublePoint(point: Point): Point {
     return {x: point.x * 2, y: point.y * 2}
 }
+
+type Song = {
+    title: string;
+    artist: string;
+    numStreams: number;
+    credits: { producer: string; writer: string}
+}
+
+function calculatePayout(song: Song) {
+    return song.numStreams * 0.0045
+}
+
+function printSong(song: Song) {
+    console.log(`${song.title} - ${song.artist}`)
+}
+
+const mySong: Song = {
+    title: 'title',
+    artist: 'artist',
+    numStreams: 343,
+    // credits: 'sdlfj',
+    credits: {
+        producer: 'producer',
+        writer: 'writer'
+    }
+}
+
+var earnings = calculatePayout(mySong)
+console.log(earnings)
+printSong(mySong)
