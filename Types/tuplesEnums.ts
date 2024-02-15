@@ -9,3 +9,19 @@ const goodRes: HTTPResponse = [2, 'Ok']
 // goodRes.pop()
 // goodRes.pop()
 // goodRes.pop()
+
+
+enum OrderStatus {
+    PENDING,
+    SHIPPED,
+    DELIVERED,
+    RETURNED
+}
+
+const myStatus = OrderStatus.DELIVERED;
+
+function isDelivered(status: OrderStatus): boolean {
+    return status === OrderStatus.DELIVERED
+}
+
+isDelivered(OrderStatus.RETURNED)
