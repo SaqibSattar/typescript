@@ -18,11 +18,11 @@
 // coords.push({x:2, y:3})
 // coords.push({x:2})
 
-const boards: string[][] = [
-    ['X', 'O', 'X'],
-    ['X', 'O', 'X'],
-    ['X', 'O', 'X'],
-    ['X', 'O', 'X']
-]
+// const boards: string[][] = [
+//     ['X', 'O', 'X'],
+//     ['X', 'O', 'X'],
+//     ['X', 'O', 'X'],
+//     ['X', 'O', 'X']
+// ]
 
-const demo: number[][][] = [[[1]]]
+// const demo: number[][][] = [[[1]]]
