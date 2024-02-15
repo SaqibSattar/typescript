@@ -30,9 +30,17 @@
 // console.log(calculateTax(23, 4))
 // console.log(calculateTax('23', 4))
 
-const nums: number[] = [1,2,3]
-const stuff: any[] = ['test', 2]
+// const nums: number[] = [1,2,3]
+// const stuff: any[] = ['test', 2]
 
-const stuff: (number | string)[] = [1,2,3,'test']
-const stuff: number | string[] = [1,2,3,'test']
-const stuff: number[] | string[] = [1,2,3,'test']
+// const stuff: (number | string)[] = [1,2,3,'test']
+// const stuff: number | string[] = [1,2,3,'test']
+// const stuff: number[] | string[] = [1,2,3,'test']
+
+
+function giveAnswer(answer: 'No' | 'Yes' | 'Maybe'): void {
+    console.log(`Your answer is ${answer}`)
+}
+
+giveAnswer('No')
+giveAnswer('I am not sure')
