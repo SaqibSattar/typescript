@@ -25,3 +25,10 @@ function isDelivered(status: OrderStatus): boolean {
 }
 
 isDelivered(OrderStatus.RETURNED)
+
+enum ArrowKeys {
+    UP = 'up',
+    DOWN = 'down',
+    LEFT = 'left',
+    RIGHT = 'right'
+}
