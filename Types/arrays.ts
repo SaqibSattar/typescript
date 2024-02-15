@@ -6,14 +6,23 @@
 // users.push("1")
 // const numbers: number[]  = [1, 2]
 
-const usersList: Array<string> = []
-usersList.push('test')
+// const usersList: Array<string> = []
+// usersList.push('test')
 
-type Point = {
-    x: number,
-    y: number
-}
+// type Point = {
+//     x: number,
+//     y: number
+// }
 
-const coords: Point[] = []
-coords.push({x:2, y:3})
-coords.push({x:2})
+// const coords: Point[] = []
+// coords.push({x:2, y:3})
+// coords.push({x:2})
+
+const boards: string[][] = [
+    ['X', 'O', 'X'],
+    ['X', 'O', 'X'],
+    ['X', 'O', 'X'],
+    ['X', 'O', 'X']
+]
+
+const demo: number[][][] = [[[1]]]
